@@ -1,0 +1,7 @@
+fastapi==0.142.2
+sqlmodel==0.0.47
+uvicorn[standard]==0.53.0
+tzdata
+# para correr los tests
+pytest
+httpx
