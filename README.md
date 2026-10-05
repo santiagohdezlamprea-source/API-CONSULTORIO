@@ -5,7 +5,10 @@ Backend para agendar citas en un consultorio odontológico. Es la parte "de atr�
 que hice antes: la landing manda a WhatsApp, y esta API es el paso siguiente, guardar las citas
 de verdad y no dejar que dos personas tomen la misma hora.
 
-🔗 **Docs en vivo:** `https://<tu-servicio>.onrender.com/docs` *(lo actualizo cuando quede desplegada)*
+🔗 **Docs en vivo:** https://api-consultorio-qifn.onrender.com/docs  
+🔗 **Landing conectada:** https://santiagohdezlamprea-source.github.io/consultorio-odontologico/#agendar
+
+> El servidor gratis de Render se duerme; la primera petición puede tardar unos 50 s.
 
 ## Qué hace
 
@@ -75,6 +78,6 @@ Python · FastAPI · SQLModel · SQLite · pytest · desplegada en Render
 
 ## Pendientes
 
-- [ ] Conectar el formulario de la landing a `POST /citas`
+- [x] Conectar el formulario de la landing a `POST /citas`
 - [ ] Pasar de SQLite a PostgreSQL (en Render gratis el SQLite se borra cuando el servicio se reinicia)
 - [ ] Recordatorio por WhatsApp un día antes de la cita
